@@ -196,7 +196,7 @@
             chatLink: "https://rawgit.com/maartenpeels/PlugBotV2/master/lang/en.json",
             startupCap: 200, // 1-200
             startupVolume: 0, // 0-100
-            startupEmoji: treu, // true or false
+            startupEmoji: true, // true or false
             maximumAfk: 120,
             afkRemoval: false,
             maximumDc: 60,
