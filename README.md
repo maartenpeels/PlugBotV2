@@ -1,4 +1,4 @@
-##basicBot
+##otbhmBot
 
 Commands:
 =========
