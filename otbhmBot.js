@@ -54,7 +54,7 @@
     var loadChat = function (cb) {
         if (!cb) cb = function () {
         };
-        $.get("https://rawgit.com/maartenpeels/PlugBotV2/master/lang/langIndex.json", function (json) {
+        $.get("https://cdn.jsdelivr.net/gh/maartenpeels/PlugBotV2/lang/langIndex.json", function (json) {
             var link = basicBot.chatLink;
             if (json !== null && typeof json !== "undefined") {
                 langIndex = json;
@@ -183,9 +183,9 @@
         status: false,
         name: "otbhmBot",
         loggedInID: null,
-        scriptLink: "https://rawgit.com/maartenpeels/PlugBotV2/master/otbhmBot.js",
+        scriptLink: "https://cdn.jsdelivr.net/gh/maartenpeels/PlugBotV2/otbhmBot.js",
         cmdLink: "http://git.io/AMMh",
-        chatLink: "https://rawgit.com/maartenpeels/PlugBotV2/master/lang/en.json",
+        chatLink: "https://cdn.jsdelivr.net/gh/maartenpeels/PlugBotV2/lang/en.json",
         chat: null,
         loadChat: loadChat,
         retrieveSettings: retrieveSettings,
@@ -193,7 +193,7 @@
         settings: {
             botName: "otbhmBot",
             language: "english",
-            chatLink: "https://rawgit.com/maartenpeels/PlugBotV2/master/lang/en.json",
+            chatLink: "https://cdn.jsdelivr.net/gh/maartenpeels/PlugBotV2/lang/en.json",
             startupCap: 200, // 1-200
             startupVolume: 0, // 0-100
             startupEmoji: true, // true or false
@@ -243,7 +243,7 @@
             songstats: true,
             commandLiteral: "!",
             blacklists: {
-                NSFW: "https://rawgit.com/maartenpeels/PlugBotV2/master/blacklist/NSFWlist",
+                NSFW: "https://cdn.jsdelivr.net/gh/maartenpeels/PlugBotV2/blacklist/NSFWlist",
                 OP: "https://rawgit.com/maartenpeels/PlugBotV2/master/blacklist/OPlist"
             }
         },
