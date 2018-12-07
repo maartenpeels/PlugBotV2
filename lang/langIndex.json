@@ -1,5 +1,5 @@
 {
-    "english": "https://rawgit.com/maartenpeels/PlugBotV2/master/lang/en.json",
-    "portuguese": "https://rawgit.com/maartenpeels/PlugBotV2/master/lang/pt.json",
-    "french": "https://rawgit.com/maartenpeels/PlugBotV2/master/lang/fr.json"
+    "english": "https://cdn.jsdelivr.net/gh/maartenpeels/PlugBotV2/lang/en.json",
+    "portuguese": "https://cdn.jsdelivr.net/gh/maartenpeels/PlugBotV2/lang/pt.json",
+    "french": "https://cdn.jsdelivr.net/gh/maartenpeels/PlugBotV2/lang/fr.json"
 }
